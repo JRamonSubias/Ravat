@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Ravat</string>
+
+    <string name="ravat">Ravat</string>
+    <string name="client">Cliente</string>
+    <string name="driver">Conductor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="singUp">Registrar</string>
+    <string name="name">Nombre completo</string>
+    <string name="email">Correo electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="ConfirmPassword">Confirmar contraseña</string>
 </resources>

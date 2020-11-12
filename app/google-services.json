@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "774060184801",
+    "firebase_url": "https://ravat-190d3.firebaseio.com",
+    "project_id": "ravat-190d3",
+    "storage_bucket": "ravat-190d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774060184801:android:a3711255372419e65753a0",
+        "android_client_info": {
+          "package_name": "com.vanram.ravat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774060184801-ovkeoaml6di093crpsghojjnn1u8ppst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vanram.ravat",
+            "certificate_hash": "6e025bba959e406f79f95b05335c6fb47660d952"
+          }
+        },
+        {
+          "client_id": "774060184801-sj2n4uhs5bm1qhesj3u8n1836qek5n4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9slWzmfsGHH4hrmgn3I-c6TzKy0MxNkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774060184801-sj2n4uhs5bm1qhesj3u8n1836qek5n4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
