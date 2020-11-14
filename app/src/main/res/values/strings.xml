@@ -11,4 +11,10 @@
     <string name="email">Correo electronico</string>
     <string name="password">Contraseña</string>
     <string name="ConfirmPassword">Confirmar contraseña</string>
+    <string name="singUpTitle">Registro</string>
+    <string name="rememberMe">Recordarme</string>
+    <string name="singIn">Iniciar sesion</string>
+    <string name="carModel">Marca</string>
+    <string name="carPlaca">Placas</string>
+    <string name="close">Cerrar sesion</string>
 </resources>

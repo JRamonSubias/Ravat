@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:padding="16dp"
-    tools:context=".LoginActivity.UI.SingUp">
+    tools:context=".LoginActivity.UI.SingUpDriver">
 
     <TextView
         android:id="@+id/TVravatDriver"
@@ -22,11 +22,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/SU_name"
+        android:id="@+id/SUDriver_name"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:hint="@string/name"
         android:textColorHint="@color/white"
         app:boxStrokeColor="@color/white"
@@ -38,71 +38,118 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"/>
-
+            android:textColor="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/SU_email"
+        android:id="@+id/SUDriver_email"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:hint="@string/email"
         android:textColorHint="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/SU_name"
-        tools:layout_editor_absoluteX="16dp">
+        app:boxStrokeColor="@color/white"
+        app:helperTextTextColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/SUDriver_name"
+        app:layout_constraintStart_toStartOf="@+id/SUDriver_name"
+        app:layout_constraintTop_toBottomOf="@+id/SUDriver_name">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"/>
-
+            android:textColor="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/SU_password"
+        android:id="@+id/SUDriver_CarModel"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/carModel"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/white"
+        app:helperTextTextColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/SUDriver_email"
+        app:layout_constraintStart_toStartOf="@+id/SUDriver_email"
+        app:layout_constraintTop_toBottomOf="@+id/SUDriver_email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/SUDriver_placa"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/carPlaca"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/white"
+        app:helperTextTextColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/SUDriver_CarModel"
+        app:layout_constraintStart_toStartOf="@+id/SUDriver_CarModel"
+        app:layout_constraintTop_toBottomOf="@+id/SUDriver_CarModel">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/SUDriver_password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:hint="@string/password"
         android:textColorHint="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/SU_email"
-        tools:layout_editor_absoluteX="16dp">
+        app:boxStrokeColor="@color/white"
+        app:helperTextTextColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/SUDriver_placa"
+        app:layout_constraintStart_toStartOf="@+id/SUDriver_placa"
+        app:layout_constraintTop_toBottomOf="@+id/SUDriver_placa">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"/>
-
+            android:textColor="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/SU_confirmPassword"
+        android:id="@+id/SUDriver_confirmPassword"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:hint="@string/ConfirmPassword"
         android:textColorHint="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/SU_password"
-        tools:layout_editor_absoluteX="16dp">
+        app:boxStrokeColor="@color/white"
+        app:helperTextTextColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/SUDriver_password"
+        app:layout_constraintStart_toStartOf="@+id/SUDriver_password"
+        app:layout_constraintTop_toBottomOf="@+id/SUDriver_password">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"/>
-
+            android:textColor="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/SU_btnSingUp"
+        android:id="@+id/SUDriver_btnSingUpDriver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/singUp"
         app:layout_constraintEnd_toEndOf="@+id/TVravatDriver"
         app:layout_constraintStart_toStartOf="@+id/TVravatDriver"
-        app:layout_constraintTop_toBottomOf="@+id/SU_confirmPassword" />
-
+        app:layout_constraintTop_toBottomOf="@+id/SUDriver_confirmPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
